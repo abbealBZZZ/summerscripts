@@ -22,13 +22,13 @@ It must take as parameters:
 - the character to use to draw the logo
 - the width of the logo (minimum 5)
 
-The position of the eyes is free but they must not touch each other and the logo must be vertically symmetrical.
+The logo must be vertically symmetrical and the amount of spaces between each eye and on the sides must be the same +/-1.
 
 You are free to use any language you like.
 
 ## Examples
 
-For a width of 8 and the character "x", the result could be:
+For a width of 8 and the character "x", the result is:
 ```
   x  x  
 xxxxxxxx
@@ -36,7 +36,7 @@ xxxxxxxx
 xxxxxxxx
 ```
 
-For a width of 12 and the character "o", the result could be:
+For a width of 12 and the character "o", the result is:
 ```
    o    o  
 oooooooooooo
